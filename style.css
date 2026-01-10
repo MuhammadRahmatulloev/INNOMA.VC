@@ -812,6 +812,111 @@ header{
     font-weight: 400;
     width: 65%;
 }
+.ryad{
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.expert{
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.expert h1{
+    color: #1178B2;
+    font-size: 35px;
+    font-weight: 700;
+}
+.circle{
+    width: 40px;
+    height: 40px;
+    background-color: #2A79C2;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.expert1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.expert-cont{
+    display: grid;
+    grid-template-columns: 230px 230px 230px 230px;
+    grid-template-rows: 330px;
+    gap: 20px;
+}
+.expert-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    text-align: center;
+    gap: 5px;
+}
+.expert-item2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    text-align: center;
+    gap: 5px;
+}
+.expert-item h1{
+    color: #000000;
+    font-size: 18px;
+    font-weight: 600;
+}
+.expert-item p{
+    color: #000000c4;
+    font-size: 15px;
+    font-weight: 400;
+    width: 90%;
+}
+.expert-img{
+    width: 100%;
+}
+.arrows{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    display: none;
+}
+.icons{
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.icons h1{
+    color: #1178B2;
+    font-size: 35px;
+    font-weight: 700;
+}
+.icon-cont{
+    display: grid;
+    grid-template-columns: 285px 285px 285px 285px;
+    grid-template-rows: 100px 100px 100px 100px;
+    gap: 20px;
+}
+.icon-item{
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px #00000020;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 @media (max-width: 600px){
     header{
         height: 680px;
@@ -1331,5 +1436,80 @@ header{
         font-weight: 400;
         width: 80%;
         align-self: center;
+    }
+    .ryad{
+        max-width: 1200px;
+        margin: auto;
+        margin-top: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    .ryad-img{
+        display: none;
+    }
+    .ryad-img2{
+        width: 30%;
+    }
+    .expert{
+        max-width: 1200px;
+        margin: auto;
+        margin-top: 150px;
+        display: flex;
+        flex-direction: column;
+        justify-content: baseline;
+        align-items: center;
+        text-align: center;
+        gap: 50px;
+    }
+    .circle{
+        display: none;
+    }
+    .expert1{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .expert-cont{
+        display: grid;
+        grid-template-columns: 230px 0px 0px 0px;
+        grid-template-rows: 330px;
+        gap: 20px;
+    }
+    .expert-item{
+        display: none;
+    }
+    .expert-item2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;
+        text-align: center;
+        gap: 5px;
+    }
+    .arrows{
+        display: block;
+    }
+    .arrows img{
+        padding: 40px;
+    }
+    .icons{
+        max-width: 1200px;
+        margin: auto;
+        margin-top: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        gap: 50px;
+        padding: 20px;
+    }
+    .icon-cont{
+        display: grid;
+        grid-template-columns: 180px 180px;
+        grid-template-rows: repeat(4, 100px, 4, 100px);
+        gap: 20px;
     }
 }
