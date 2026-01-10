@@ -657,6 +657,100 @@ header{
     color: #0000007d;
     width: 70%;
 }
+.cost{
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.cost h1{
+    color: #1178B2;
+    font-size: 35px;
+    font-weight: 700;
+}
+.cost-cont{
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    grid-template-rows: 900px;
+    gap: 20px;
+}
+.cost-item{
+    box-shadow: 0px 0px 20px #0000001b;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    gap: 30px;
+}
+.cost-div1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+.cost-div1 h2{
+    color: #1B1B1B;
+    font-size: 20px;
+    font-weight: 600;
+    width: 70%;
+}
+.cost-div2 p{
+    color: #000000;
+    font-size: 16px;
+    font-weight: 400;
+}
+.cost-div2{
+    border-top: 1px solid #E3E3E3;
+    border-bottom: 1px solid #E3E3E3;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.cost-both{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 25px;
+}
+.cost-both2{
+    border-top: 1px solid #E3E3E3;
+    border-bottom: 1px solid #E3E3E3;
+    padding: 15px 25px;
+    display: flex;
+    justify-content: space-between;
+}
+.cost-div3 h2{
+    color: #000000;
+    font-size: 18px;
+    font-weight: 600;
+}
+.cost-div3 p{
+    color: #000000;
+    font-size: 16px;
+    font-weight: 400;
+}
+.cost-div3{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.cost-item button{
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 20px 70px;
+    background: linear-gradient(#016CA8, #61B5E4);
+    border-radius: 10px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
 @media (max-width: 600px){
     header{
         height: 680px;
@@ -1089,6 +1183,22 @@ header{
         display: grid;
         grid-template-columns: 350px;
         grid-template-rows: repeat(6, 280px);
+        gap: 20px;
+    }
+    .cost{
+        max-width: 1200px;
+        margin: auto;
+        margin-top: 150px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+    }
+    .cost-cont{
+        display: grid;
+        grid-template-columns: 400px;
+        grid-template-rows: repeat(3, 900px);
         gap: 20px;
     }
 }
