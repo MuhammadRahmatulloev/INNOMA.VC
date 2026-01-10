@@ -257,6 +257,152 @@ header{
     border: none;
     border-radius: 10px;
 }
+.rinok{
+    max-width: 1200px;
+    height: 650px;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.rinok-divs{
+    display: flex;
+}
+.rinok-div1{
+    background-color: #88BBD8;
+    border-radius: 5px;
+    width: 300px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+.rinok-div2{
+    background-color: #EEF1F4;
+    border-right: 1px solid #CFDDEB;
+    width: 300px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #484848;
+    font-size: 20px;
+    font-weight: 400;
+}
+.rinok h1{
+    color: #1178B2;
+    font-size: 35px;
+    font-weight: 700;
+}
+.rinok2{
+    width: 90%;
+    height: 420px;
+    background-image: url("./rinok-fon.png");
+    background-repeat: no-repeat;
+    background-position: start;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.rinok-txt h1{
+    color: #000000;
+    font-size: 30px;
+    font-weight: 700;
+}
+.rinok-txt p{
+    color: #000000;
+    font-size: 16px;
+    font-weight: 400;
+}
+.rinok-face h5{
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+}
+.rinok-und p{
+    color: #727272;
+    font-size: 14px;
+    font-weight: 400;
+}
+.rinok-und{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.rinok-face{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.rinok-txt button{
+    background: linear-gradient(#016CA8, #61B5E4);
+    border-radius: 10px;
+    border: none;
+    padding: 25px 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+.button-mob{
+    background: linear-gradient(#016CA8, #61B5E4);
+    border-radius: 10px;
+    border: none;
+    padding: 25px 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    display: none;
+}
+.rinok-txt{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.rinok-cont{
+    display: grid;
+    grid-template-columns: 300px 300px;
+    grid-template-rows: 200px 200px;
+    gap: 20px;
+}
+.rinok-item{
+    box-shadow: 0px 0px 30px #0000001b;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.rinok-p1{
+    color: #1178B280;
+    font-size: 50px;
+    font-weight: 800;
+}
+.rinok-p2{
+    color: #10101080;
+    font-size: 20px;
+    font-weight: 400;
+}
+.rinok-p3{
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    width: 50%;
+    text-align: center;
+}
 @media (max-width: 600px){
     header{
         height: 680px;
@@ -389,8 +535,7 @@ header{
         justify-content: center;
         align-items: center;
     }
-    .learn1
-    {
+    .learn1{
         max-width: 1200px;
         text-align: center;
         display: flex;
@@ -410,5 +555,97 @@ header{
     }
     .learn1 button{
         width: 80%;
+    }
+    .rinok{
+        max-width: 1200px;
+        height: 650px;
+        margin: auto;
+        margin-top: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 20px;
+        text-align: center;
+    }
+    .rinok-divs{
+        display: flex;
+    }
+    .rinok-div1{
+        width: 300px;
+        height: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 20px;
+    }
+    .rinok-div2{
+        width: 300px;
+        height: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 20px;
+    }
+    .rinok h1{
+        font-size: 35px;
+    }
+    .rinok2{
+        width: 90%;
+        height: 420px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        gap: 50px;
+    }
+    .rinok-txt h1{
+        font-size: 23px;
+        width: 60%;
+    }
+    .rinok-txt p{
+        font-size: 18px;
+        width: 80%;
+    }
+    .rinok-txt button{
+        display: none;
+    }
+    .button-mob{
+        display: block;
+        padding: 20px 100px;
+    }
+    .rinok-txt{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 30px;
+    }
+    .rinok-cont{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 150px 150px;
+        gap: 20px;
+    }
+    .rinok-item{
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+        text-align: center;
+    }
+    .rinok-p1{
+        font-size: 30px;
+    }
+    .rinok-p2{
+        font-size: 16px;
+        width: 80%;
+    }
+    .rinok-p3{
+        font-size: 16px;
+        width: 80%;
+        text-align: center;
     }
 }
