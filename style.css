@@ -613,6 +613,50 @@ header{
     max-width: 1200px;
     display: flex;
 }
+.result{
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+     gap: 50px;
+}
+.result h1{
+    color: #1178B2;
+    font-size: 35px;
+    font-weight: 700;
+}
+.result-cont{
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    grid-template-rows: 280px 280px;
+    gap: 20px;
+}
+.result-item{
+    box-shadow: 0px 0px 20px #0000001b;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+.result-item h1{
+    font-size: 80px;
+    font-weight: 800;
+    color: #1178B280;
+}
+.result-item h2{
+    font-size: 20px;
+    font-weight: 600;
+    color: #000000;
+}
+.result-item p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #0000007d;
+    width: 70%;
+}
 @media (max-width: 600px){
     header{
         height: 680px;
@@ -1031,5 +1075,20 @@ header{
     }
     .radar-card img{
         width: 100%;
+    }
+    .result{
+        max-width: 1200px;
+        margin: auto;
+        margin-top: 100px;
+        padding: 20px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .result-cont{
+        display: grid;
+        grid-template-columns: 350px;
+        grid-template-rows: repeat(6, 280px);
+        gap: 20px;
     }
 }
