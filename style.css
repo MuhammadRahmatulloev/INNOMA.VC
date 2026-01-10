@@ -209,6 +209,54 @@ header{
     color: #0000007d;
     width: 70%;
 }
+.learn{
+    margin-top: 100px;
+    width: 100%;
+    height: 600px;
+    background: linear-gradient(rgba(0, 0, 0, 0.529)), url("./learn-fon.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.learn1
+{
+    max-width: 1200px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.learn1 h1{
+    border-radius: 5px;
+    background-color: #07AF91;
+    color: #FFFFFF;
+    font-size: 40px;
+    font-weight: 700;
+    padding: 10px 30px;
+}
+.learn1 p{
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: 500;
+}
+.learn1 button{
+    width: 350px;
+    height: 80px;
+    background: linear-gradient(#016CA8, #61B5E4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+}
 @media (max-width: 600px){
     header{
         height: 680px;
@@ -332,5 +380,35 @@ header{
     }
     .for-card h1{
         font-size: 80px;
+    }
+    .learn{
+        margin-top: 100px;
+        width: 100%;
+        height: 600px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .learn1
+    {
+        max-width: 1200px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+    .learn1 h1{
+        font-size: 30px;
+        width: 80%;
+    }
+    .learn1 p{
+        font-size: 20px;
+        font-weight: 400;
+        width: 80%;
+    }
+    .learn1 button{
+        width: 80%;
     }
 }
