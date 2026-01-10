@@ -403,6 +403,58 @@ header{
     width: 50%;
     text-align: center;
 }
+.axel{
+    max-width: 1200px;
+    height: 1100px;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.axel h1{
+    color: #1178B2;
+    font-size: 35px;
+    font-weight: 700;
+}
+.axel p{
+    color: #00000083;
+    font-size: 20px;
+    font-weight: 400;
+    width: 90%;
+}
+.axel-cont{
+    display: grid;
+    grid-template-columns: 380px 380px 380px;
+    grid-template-rows: 280px;
+    justify-content: space-between;
+}
+.axel-item{
+    box-shadow: 0px 0px 30px #0000001b;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+}
+.axel-black{
+    background-color: #0F0F0F;
+    border-radius: 10px;
+    width: 100%;
+    height: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 70px;
+}
+.axel-black p{
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 600;
+}
 @media (max-width: 600px){
     header{
         height: 680px;
@@ -647,5 +699,48 @@ header{
         font-size: 16px;
         width: 80%;
         text-align: center;
+    }
+    .axel{
+        max-width: 1200px;
+        height: 1500px;
+        margin: auto;
+        margin-top: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 50px;
+        padding: 20px;
+    }
+    .axel h1{
+        font-size: 35px;
+    }
+    .axel-cont{
+        display: grid;
+        grid-template-columns: 350px;
+        grid-template-rows: repeat(3, 250px);
+        gap: 20px;
+    }
+    .axel-item{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 30px;
+    }
+    .axel-black{
+        width: 90%;
+        height: 15%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 30px;
+    }
+    .axel-black p{
+        font-size: 20px;
     }
 }
