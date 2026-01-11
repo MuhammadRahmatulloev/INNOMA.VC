@@ -1139,6 +1139,39 @@ select{
     align-self: flex-start;
     margin-top: 30px;
 }
+.foot{
+    width: 100%;
+    height: 200px;
+    background: linear-gradient(rgba(0, 0, 0, 0.41)), url("./foot-fon.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.foot-und{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.foot h2{
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 500;
+}
+.foot-und p{
+    color: #ffffffcc;
+    font-size: 16px;
+    font-weight: 400;
+    width: 100%;
+}
+.foot-und h3{
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 400;
+}
 @media (max-width: 600px){
     header{
         height: 680px;
@@ -1924,5 +1957,30 @@ select{
         align-items: center;
         align-self: flex-start;
         margin-top: 30px;
+    }
+    .foot{
+        width: 100%;
+        height: 200px;
+        margin-top: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        gap: 30px;
+    }
+    .foot-und{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        margin-left: 30px;
+    }
+    .foot h2{
+        display: none;
+    }
+    .foot-und p{
+        font-size: 16px;
+        width: 70%;
+    }
+    .foot-und h3{
+        font-size: 16px;
     }
 }
